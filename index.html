@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Recognition</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      background: rgb(48, 51, 46);
+      height: 100vh;
+      width: 100vw;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .box, .talk {
+      display: flex;
+      border: none;
+      border-radius: 15px;
+      width: 500px;
+      height: 150px;
+      align-items: center;
+      justify-content: center;
+    }
+    .talk {
+      font-size: 5rem;
+      font-weight: 700;
+      background: rgb(236, 5, 142);
+      cursor: pointer;
+    }
+    .content-box p {
+      margin: 0;
+      padding: 0;
+    }
+    .content-box {
+      color: #333;
+      align-items: flex-start;
+      justify-content: start;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-top: 20px;
+      height: 50%;
+      background-color: white;
+    }
+    .content-box .content {
+      padding: 10px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="box button-box">
+        <button class="talk">Talk</button>
+      </div>
+      <div class="box content-box">
+        <p class="content">ddd</p>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
